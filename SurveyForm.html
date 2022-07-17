@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Form</title>
+</head>
+<body>
+    <h1>Travel Booking Request Form</h1>
+    <hr>
+    <form>
+    <div>
+        <h3><b>Passanger info:</b></h3>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" placeholder="First Name"> <br>
+        <br><label for="lname">Last Name </label>
+        <input type="text" name="lname" placeholder="Last Name">
+    </div>
+    <div>
+        <h3><b>Contact info:</b></h3>
+        <label for="phone">Phone Number</label>
+        <input type="number" name="phone" placeholder="Enter phone number"> <br>
+        <br><label for="email">Email </label>
+        <input type="email" name="email" placeholder="Enter your email">
+    </div>
+    <div>
+        <h3><b>Address info:</b></h3>
+        <label for="street1">Street No.</label>
+        <input type="text" name="street1"> <br>
+        <br><label for="cont"> Country </label>
+        <br><select name="cont" id="cont">
+            <option value="Lebonan">Lebonan</option>
+            <option value="Libya">Libya</option>
+            <option value="Jordan">Jordan</option>
+            <option value="Palstine">Palstine</option>
+            <option value="Turkey">Turkey</option>
+            <option value="India">India</option>
+        </select>
+        <br><label for="city">City</label>
+       <br> <select name="city" id="city">
+            <option value="Cairo">Cairo</option>
+            <option value="Giza">Giza</option>
+            <option value="Luxor">Luxor</option>
+            <option value="Gazza">Gazza</option>
+            <option value="BBBB">BBBB</option>
+            <option value="Siwa">Siwa</option>
+        </select>
+    </div>
+    <div>
+        <h3>Booking Info:</h3>
+        <label for="Dept">Departure Date</label>
+        <input name="Dept" type="date"><br>
+        <br><label for="num"> Number of adults</label>
+        <input type="number" name="num"><br>
+        <br><label for="option">Is there any children age less than 5?</label>
+       <br><label>Yes</label>
+        <input type="radio" name="option">
+        <br><label>No</label>
+        <input type="radio" name="option"><br>
+       <br><label for="include"> Do you want to add: </label>
+        <br><label for="include"> Breakfast </label>
+        <input type="checkbox" name="include">
+        <br><label for="include"> Dinner </label>
+        <input type="checkbox" name="include">
+        <br><label for="include"> Extra Services </label>
+        <input type="checkbox" name="include">
+
+    </div>
+    </form>
+</body>
+</html>
